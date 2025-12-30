@@ -1,0 +1,9 @@
+1:"$Sreact.fragment"
+2:I[41876,["/piwwo-draw/_next/static/chunks/ba3e5fa7334192b2.js"],"ClientPageRoot"]
+3:I[67716,["/piwwo-draw/_next/static/chunks/a7432bc5742b1542.js"],"default"]
+6:I[53079,["/piwwo-draw/_next/static/chunks/ba3e5fa7334192b2.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+0:{"buildId":"VlqLM8N6bRgneAl1eHfoq","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/piwwo-draw/_next/static/chunks/a7432bc5742b1542.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+4:{}
+5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
+8:null
