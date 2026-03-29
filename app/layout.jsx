@@ -11,7 +11,7 @@ export const metadata = {
     siteName: "PillowDraw",
     images: [
       {
-        url: "/preview-img.jpg",
+        url: "/preview-img2.jpg",
         width: 1200,
         height: 628,
         alt: "PillowDraw - Archive of Piwwo Art",
@@ -24,7 +24,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "PillowDraw",
     description: "Archive of Piwwo Art",
-    images: ["/preview-img.jpg"], 
+    images: ["/preview-img2.jpg"], 
   },
 };
 
