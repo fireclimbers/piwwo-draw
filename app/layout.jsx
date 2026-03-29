@@ -1,6 +1,7 @@
 import './globals.css';
 
 export const metadata = {
+  metadataBase: new URL('https://pillowdear.com'),
   title: "PillowDraw",
   description: "Archive of Piwwo Art",
   openGraph: {
@@ -10,9 +11,10 @@ export const metadata = {
     siteName: "PillowDraw",
     images: [
       {
-        url: "/icon.png",
+        url: "/preview-img.jpg",
         width: 1200,
-        height: 630,
+        height: 628,
+        alt: "PillowDraw - Archive of Piwwo Art",
       },
     ],
     locale: "en_US",
@@ -22,7 +24,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "PillowDraw",
     description: "Archive of Piwwo Art",
-    images: ["/icon.png"], 
+    images: ["/preview-img.jpg"], 
   },
 };
 
