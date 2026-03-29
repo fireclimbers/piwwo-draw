@@ -241,7 +241,7 @@ export default function Home() {
               <button  onClick={()=>{setOutfit('pajama')}} className={"button is-small "+(outfit === 'pajama' ? 'is-info':'is-white')}>Pajama</button>
               <button  onClick={()=>{setOutfit('gothic')}} className={"button is-small "+(outfit === 'gothic' ? 'is-info':'is-white')}>Gothic</button>
             </div>
-            <img src={"/"+outfit+"_ref.jpg"} alt="PillowDear Nurse" />
+            <img src={"/"+outfit+"_ref.jpg"} alt={"PillowDear "+outfit} />
           </div>}
         </div>
         <div className="column" style={{padding:0}}></div>
