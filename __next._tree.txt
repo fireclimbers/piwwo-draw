@@ -1,3 +1,3 @@
 :HL["/_next/static/chunks/a6f63516411ec53e.css","style"]
 :HL["https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css","style"]
-0:{"buildId":"D-GvOxm_--6JqV8RBQn7i","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"xpDX8D-Tp0Bm9c6fFzd-z","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
