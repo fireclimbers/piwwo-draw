@@ -1,0 +1,38 @@
+
+.post-padding {
+  padding: 0; /* Or 0.25rem for a tiny gap */
+}
+
+
+.is-transparent-navbar {
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  width: 100%;
+  position:relative;
+}
+
+.logo {
+  margin-top:24px;
+  padding-left:24px;
+  padding-right:24px;
+  filter: drop-shadow(0 0 30px #fff);
+}
+
+
+
+/* 2. Define the Tablet/Desktop version (769px and up) */
+@media screen and (min-width: 769px) {
+  .post-padding {
+    padding: 24px; /* This is equivalent to Bulma's p-6 or p-5 */
+  }
+}
