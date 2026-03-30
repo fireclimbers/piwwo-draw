@@ -238,6 +238,7 @@ export default function Home() {
             <div className="buttons">
               <button onClick={()=>{setOutfit('nurse')}} className={"button is-small "+(outfit === 'nurse' ? 'is-info':'is-white')}>Nurse</button>
               <button  onClick={()=>{setOutfit('casual')}} className={"button is-small "+(outfit === 'casual' ? 'is-info':'is-white')}>Casual</button>
+              <button  onClick={()=>{setOutfit('casual-1.0')}} className={"button is-small "+(outfit === 'casual-1.0' ? 'is-info':'is-white')}>Casual (1.0)</button>
               <button  onClick={()=>{setOutfit('pajama')}} className={"button is-small "+(outfit === 'pajama' ? 'is-info':'is-white')}>Pajama</button>
               <button  onClick={()=>{setOutfit('gothic')}} className={"button is-small "+(outfit === 'gothic' ? 'is-info':'is-white')}>Gothic</button>
             </div>
