@@ -125,7 +125,12 @@ export default function Home() {
           <div className="buttons">
             <button onClick={()=>{setCurrentPage('draw')}} className={"button"+(currentPage === 'draw' ? ' is-info': ' is-white')}>#pillowdraw</button>
             <button onClick={()=>{setCurrentPage('references')}} className={"button"+(currentPage === 'references' ? ' is-info': ' is-white')}>References</button>
+            <button onClick={()=>{setCurrentPage('other')}} className={"button"+(currentPage === 'other' ? ' is-info': ' is-white')}>Resources</button>
           </div>
+
+          {currentPage === 'draw' && <p style={{marginBottom:12}}>Art made by the Piwwo community! Any post with the #pillowdraw tag will appear here</p>}
+          {currentPage === 'references' && <p style={{marginBottom:12}}>Design references of all PillowDear outfits</p>}
+          {currentPage === 'other' && <p style={{marginBottom:12}}>Other resources and assets</p>}
 
 
           {currentPage === 'draw' && <div className="post-padding" style={{border:"#F4BBBF 6px solid", borderRadius:'12px', backgroundColor:"#ffffffa0"}}>
@@ -241,8 +246,77 @@ export default function Home() {
               <button  onClick={()=>{setOutfit('casual-1.0')}} className={"button is-small "+(outfit === 'casual-1.0' ? 'is-info':'is-white')}>Casual (1.0)</button>
               <button  onClick={()=>{setOutfit('pajama')}} className={"button is-small "+(outfit === 'pajama' ? 'is-info':'is-white')}>Pajama</button>
               <button  onClick={()=>{setOutfit('gothic')}} className={"button is-small "+(outfit === 'gothic' ? 'is-info':'is-white')}>Gothic</button>
+              <button  onClick={()=>{setOutfit('original')}} className={"button is-small "+(outfit === 'original' ? 'is-info':'is-white')}>Original</button>
+              <button  onClick={()=>{setOutfit('mascot')}} className={"button is-small "+(outfit === 'mascot' ? 'is-info':'is-white')}>Mascot (piwwo)</button>
             </div>
             <img src={"/"+outfit+"_ref.jpg"} alt={"PillowDear "+outfit} />
+          </div>}
+
+          {currentPage === 'other' && <div className="post-padding" style={{border:"#F4BBBF 6px solid", borderRadius:'12px', backgroundColor:"#ffffffa0"}}>
+            <p><b>Links:</b></p>
+            <p>
+              <a href="https://www.youtube.com/@pillowdear" target="_blank"><span className="icon-text">
+                <span className="icon has-text-danger">
+                  <i className="fab fa-youtube fa-fw"></i>
+                </span>
+                <span>PillowDear</span>
+              </span></a>
+            </p>
+            <p>
+              <a href="https://www.youtube.com/@CushionHunASMR" target="_blank"><span className="icon-text">
+                <span className="icon has-text-danger">
+                  <i className="fab fa-youtube fa-fw"></i>
+                </span>
+                <span>CushionHun ASMR</span>
+              </span></a>
+            </p>
+
+            <p>
+              <a href="https://x.com/pillowdearASMR" target="_blank"><span className="icon-text">
+                <span className="icon has-text-black">
+                  <i className="fab fa-x-twitter fa-fw"></i>
+                </span>
+                <span>PillowDearASMR</span>
+              </span></a>
+            </p>
+            <p>
+              <a href="https://discord.gg/pillowdear" target="_blank"><span className="icon-text">
+                <span className="icon has-text-link">
+                  <i className="fab fa-discord fa-fw"></i>
+                </span>
+                <span>PiwwoCord (fan-run)</span>
+              </span></a>
+            </p>
+            <hr/>
+
+            <p><b>3D Models:</b></p>
+            <p><a href="https://drive.google.com/drive/folders/1qyO-4bEuuX2r_ECB0gPKDZtUUhzMNkym?usp=sharing" target="_blank">Nurse and casual (low poly)</a></p>
+            <p><a href="https://drive.google.com/drive/folders/1WFyOOsfnu0Lg1OVtvgIloH2EIvh5tZx_" target="_blank">Pajama (low poly)</a></p>
+            <p><a href="https://drive.google.com/drive/folders/1H_VlR9Gq8Lp-Mon8IAVEucweY61O8-YO" target="_blank">Pillow Plush</a></p>
+            <p><a href="https://x.com/moon_8_shadow/status/1904195250824130742?s=46" target="_blank">Piwwo</a></p>
+            <p><a href="https://drive.google.com/drive/folders/1LCOlC_FZIRToZ2d_GsnCozyQzi24_5NC" target="_blank">Piwwo Live2D</a></p>
+            <p><a href="https://vrchat.com/home/world/wrld_53edc4f1-2fca-4c96-8587-ab93a798313a/info" target="_blank">Pillow Basement VRChat World</a></p>
+            <hr/>
+
+
+            <p><b>Official daki designs:</b></p>
+            <p>You will need to find a website that makes custom dakis and send in these images.</p>
+            <br/>
+            <div className="columns">
+            <div className="column">
+            <img src={"/casual_front.png"} alt={"Daki casual front"} />
+            </div>
+            <div className="column">
+            <img src={"/casual_back.png"} alt={"Daki casual back"} />
+            </div>
+            <div className="column">
+            <img src={"/nurse_front.png"} alt={"Nurse casual front"} />
+            </div>
+            <div className="column">
+            <img src={"/nurse_back.png"} alt={"Nurse casual back"} />
+            </div>
+            </div>
+
           </div>}
         </div>
         <div className="column" style={{padding:0}}></div>
