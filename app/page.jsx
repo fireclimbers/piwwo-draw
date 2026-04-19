@@ -22,7 +22,7 @@ export default function Home() {
   const [hasMore, setHasMore] = useState(true);
 
   const [currentPage, setCurrentPage] = useState('draw');
-  const [outfit, setOutfit] = useState('nurse');
+  const [outfit, setOutfit] = useState('current');
 
   useEffect(() => {
     fetchTweets();
@@ -241,6 +241,7 @@ export default function Home() {
 
           {currentPage === 'references' && <div className="post-padding" style={{border:"#F4BBBF 6px solid", borderRadius:'12px', backgroundColor:"#ffffffa0"}}>
             <div className="buttons">
+              <button onClick={()=>{setOutfit('current')}} className={"button is-small "+(outfit === 'current' ? 'is-info':'is-white')}>CURRENT</button>
               <button onClick={()=>{setOutfit('nurse')}} className={"button is-small "+(outfit === 'nurse' ? 'is-info':'is-white')}>Nurse</button>
               <button  onClick={()=>{setOutfit('casual')}} className={"button is-small "+(outfit === 'casual' ? 'is-info':'is-white')}>Casual</button>
               <button  onClick={()=>{setOutfit('casual-1.0')}} className={"button is-small "+(outfit === 'casual-1.0' ? 'is-info':'is-white')}>Casual (1.0)</button>
@@ -254,6 +255,11 @@ export default function Home() {
 
           {currentPage === 'other' && <div className="post-padding" style={{border:"#F4BBBF 6px solid", borderRadius:'12px', backgroundColor:"#ffffffa0"}}>
             <p><b>Links:</b></p>
+            <p>
+              <a href="https://pillowdearvt.com" target="_blank"><span className="icon-text">
+                <span style={{marginLeft:4}}>🌈 💌 Official Website</span>
+              </span></a>
+            </p>
             <p>
               <a href="https://www.youtube.com/@pillowdear" target="_blank"><span className="icon-text">
                 <span className="icon has-text-danger">
