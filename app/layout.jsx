@@ -1,13 +1,13 @@
 import './globals.css';
 
 export const metadata = {
-  metadataBase: new URL('https://pillowdear.com'),
+  metadataBase: new URL('https://pillowdraw.com'),
   title: "PillowDraw",
   description: "Archive of Piwwo Art",
   openGraph: {
     title: "PillowDraw",
     description: "Archive of Piwwo Art",
-    url: "https://pillowdear.com",
+    url: "https://pillowdraw.com",
     siteName: "PillowDraw",
     images: [
       {
