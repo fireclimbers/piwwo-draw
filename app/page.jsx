@@ -286,11 +286,19 @@ export default function Home() {
               </span></a>
             </p>
             <p>
+              <a href="https://merch.kawaentertainment.com/collections/pillowdear" target="_blank"><span className="icon-text">
+                <span className="icon has-text-info">
+                  <i className="fa-solid fa-store fa-fw"></i>
+                </span>
+                <span>Current Merch (kawa entertainment)</span>
+              </span></a>
+            </p>
+            <p>
               <a href="https://uwumarket.us/collections/pillowdearasmr" target="_blank"><span className="icon-text">
                 <span className="icon has-text-primary">
                   <i className="fa-solid fa-store fa-fw"></i>
                 </span>
-                <span>PillowDear Merch</span>
+                <span>Past Merch (uwumarket)</span>
               </span></a>
             </p>
             <p>
